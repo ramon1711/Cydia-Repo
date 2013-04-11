@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#  rupdate.sh
+#  
+#
+#  Created by Silas Schwarz on 3/18/13.
+#
+
+cd (path/to/repo)
+
+./dpkg-scanpackages -m . /dev/null >Packages
+
+rm Packages.bz2
+
+bzip2 Packages
