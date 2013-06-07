@@ -1,7 +1,7 @@
-Origin: (Your Repo Name)
-Label: (Your Repo Name)
+Origin: Cydia.zcodemt.com
+Label: Zcodemt Repo
 Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm
 Components: main
-Description: (repo description)
+Description: Zcodemt repo!
